@@ -38,6 +38,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SOFT_SERIAL_PIN D2
 #define SERIAL_USE_MULTI_TRANSACTION
 
+/* encoder support */
+#define ENCODERS_PAD_A { D4 }
+#define ENCODERS_PAD_B { F5 }
+#define ENCODERS_PAD_A_RIGHT { F5 }
+#define ENCODERS_PAD_B_RIGHT { D4 }
+#define ENCODER_RESOLUTION 2
+
+#define TAP_CODE_DELAY 10
+
+#define TAPPING_TERM 100
+
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
 
